@@ -1,20 +1,21 @@
 import React, { Component } from "react";
 import { connect } from 'react-redux';
 import { setTea } from './actions/teas';
-import list from './list.json';
+import axios from 'axios';
+
 
 class App extends Component {
 
-  /* componentWillMount() {
+  componentWillMount() {
 
     const { teas } = this.props;
     axios.get('/list.json').then(({ data }) => {
       teas(data);
     });
-  } */
+  }
 
   render() {
-    //const { teas } = this.props
+    const { teas } = this.props
     return (
       <ul>
         {list.map(tea => (
