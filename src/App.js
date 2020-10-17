@@ -1,36 +1,39 @@
 import React, { Component } from "react";
 import { connect } from 'react-redux';
 import { setTea } from './actions/teas';
+import { Container } from 'semantic-ui-react';
 import axios from 'axios';
+import Menu from './components/Menu';
+import TeaCard from './components/TeaCard';
+import { Card } from 'semantic-ui-react';
 
 
 class App extends Component {
 
   componentWillMount() {
 
-    const { teas } = this.props;
+    const { setTea } = this.props;
     axios.get('/list.json').then(({ data }) => {
-      teas(data);
+      setTea(data);
     });
   }
 
   render() {
-    const { teas } = this.props
+    const { teas, isReady } = this.props;
     return (
-      <ul>
-        {list.map(tea => (
-          <li>
-            <b>{tea.title}</b> - {tea.brand}
-          </li>
-        ))
-        }
-      </ul>
+      <Container>
+        <Menu />
+        <Card.Group itemsPerRow={4}>
+          {!isReady ? 'Загрузка...' : teas.map((tea, i) => <TeaCard key={i} {...tea} />)}
+        </Card.Group>
+      </Container>
     );
   }
 }
 
 const mapStateToProps = ({ teas }) => ({
-  teas: teas.items
+  teas: teas.items,
+  isReady: teas.isReady
 });
 
 const mapDispatchToProps = dispatch => ({

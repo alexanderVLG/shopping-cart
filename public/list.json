@@ -4,7 +4,55 @@
     "title": "Ассам",
     "brand": "Newby",
     "image": "https://www.newbyteas.co.uk/pub/media/catalog/product/cache/207e23213cf636ccdef205098cf3c8a3/n/e/newbyteas_heritage_collection_assam_front_facing.jpg",
-    "price": 500,
-    "raiting": 4
+    "price": 500
+  },
+  {
+    "id": 1,
+    "title": "Английский завтрак",
+    "brand": "Newby",
+    "image": "https://www.newbyteas.co.uk/pub/media/catalog/product/cache/207e23213cf636ccdef205098cf3c8a3/n/e/newbyteas_heritage_collection_english_breakfast_front_facing.jpg",
+    "price": 500
+  },
+  {
+    "id": 2,
+    "title": "Индийский завтрак",
+    "brand": "Newby",
+    "image": "https://www.newbyteas.co.uk/pub/media/catalog/product/cache/3fba745dcec88e97bfe808bedc471260/n/e/newbyteas_heritage_collection_indian_breakfast_front_facing.jpg",
+    "price": 500
+  },
+  {
+    "id": 3,
+    "title": "Чай чёрный чай с чабрецом",
+    "brand": "Newby",
+    "image": "https://www.newbyteas.co.uk/pub/media/catalog/product/cache/3fba745dcec88e97bfe808bedc471260/n/e/newbyteas_heritage_collection_black_tea___thyme_front_facing.jpg",
+    "price": 500
+  },
+  {
+    "id": 4,
+    "title": "Дарджилинг",
+    "brand": "Newby",
+    "image": "https://www.newbyteas.co.uk/pub/media/catalog/product/cache/3fba745dcec88e97bfe808bedc471260/n/e/newbyteas_heritage_collection_darjeeling_front_facing.jpg",
+    "price": 500
+  },
+  {
+    "id": 5,
+    "title": "Эрл Грей",
+    "brand": "Newby",
+    "image": "https://www.newbyteas.co.uk/pub/media/catalog/product/cache/3fba745dcec88e97bfe808bedc471260/n/e/newbyteas_heritage_collection_earl_grey_front_facing.jpg",
+    "price": 500
+  },
+  {
+    "id": 6,
+    "title": "Зеленая Сенча",
+    "brand": "Newby",
+    "image": "https://www.newbyteas.co.uk/pub/media/catalog/product/cache/207e23213cf636ccdef205098cf3c8a3/n/e/newbyteas_heritage_collection_green_sencha_front_facing.jpg",
+    "price": 500
+  },
+  {
+    "id": 7,
+    "title": "Цветок Жасмина",
+    "brand": "Newby",
+    "image": "https://www.newbyteas.co.uk/pub/media/catalog/product/cache/3fba745dcec88e97bfe808bedc471260/n/e/newbyteas_heritage_collection_jasmine_blossom_front_facing.jpg",
+    "price": 500
   }
 ]
